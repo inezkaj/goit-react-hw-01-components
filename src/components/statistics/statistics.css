@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+.stat-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+  gap: 5px;
+}
+.stat-list li {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  text-align: center;
+}
+.stat-list li:nth-child(1) {
+  background: aquamarine;
+}
+.stat-list li:nth-child(2) {
+  background: paleturquoise;
+}
+.stat-list li:nth-child(3) {
+  background: rgb(192, 132, 175);
+}
+.stat-list li:nth-child(4) {
+  background: rgb(104, 84, 172);
+}
+.stat-list li:nth-child(5) {
+  background: rgb(238, 248, 193);
+}

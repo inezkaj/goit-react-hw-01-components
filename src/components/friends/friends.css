@@ -1,0 +1,29 @@
+.friend-list li {
+  border: 5px outset rgb(137, 132, 132);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+}
+.status {
+  margin-left: 60px;
+}
+.name {
+  font-size: 25px;
+  font-weight: 700;
+}
+.avatar {
+  width: 20%;
+  height: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.status {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.is-online {
+  background-color: green;
+}
