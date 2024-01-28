@@ -9,7 +9,7 @@ export default function FriendsListItem(props) {
   }
 
   return (
-    <div className="itemFriends">
+    <div className="itemFriends" key={id}>
       <li>
         <div className={classList.join(' ')}></div>
         <img className="avatar" src={avatar} alt="User avatar" width="48" />
