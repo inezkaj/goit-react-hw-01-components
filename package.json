@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "typescript-plugin-css-modules": "^5.0.2"
   }
 }

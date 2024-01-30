@@ -1,4 +1,4 @@
-import './transactions.css';
+import css from './transactions.module.css';
 import PropTypes from 'prop-types';
 
 export default function TransactionHistory({ items }) {
@@ -11,9 +11,9 @@ export default function TransactionHistory({ items }) {
   ));
 
   return (
-    <table className="transaction-history">
+    <table className={css.transactionHistory}>
       <thead>
-        <tr className="table-title">
+        <tr className={css.tableTitle}>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
@@ -25,8 +25,5 @@ export default function TransactionHistory({ items }) {
   );
 }
 TransactionHistory.propTypes = {
-  id: PropTypes.string,
-  type: PropTypes.string,
-  amount: PropTypes.number,
-  currency: PropTypes.string,
+  items: PropTypes.array,
 };

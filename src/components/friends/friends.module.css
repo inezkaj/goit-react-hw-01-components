@@ -1,4 +1,4 @@
-.friend-list li {
+.friendList li {
   border: 5px outset rgb(137, 132, 132);
   border-radius: 2px;
   display: flex;
@@ -24,6 +24,6 @@
   border-radius: 50%;
   margin-top: 40px;
 }
-.is-online {
+.isOnline {
   background-color: green;
 }
